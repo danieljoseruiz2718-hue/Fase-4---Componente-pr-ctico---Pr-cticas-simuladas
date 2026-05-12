@@ -101,7 +101,7 @@ def ejecutar_simulacion():
     
     # Datos iniciales
     c1 = Cliente("001", "Daniel", "dan@mail.com")
-    c2 = Cliente("002", "Natasha", "nat@mail.com")
+    c2 = Cliente("002", "Vercelio", "ver@mail.com")
     
     s1 = ReservaSala("Sala A", 50000)
     s2 = AlquilerEquipo("Laptop", 25000)
