@@ -41,7 +41,7 @@ class Servicio(ABC):
     def __init__(self, nombre, costo_base):
         self.nombre = nombre
         self.costo_base = costo_base
-
+        
     @abstractmethod
     def calcular_costo(self, cantidad, **kwargs):
         """Método para polimorfismo y sobrecarga [cite: 24, 26]"""
