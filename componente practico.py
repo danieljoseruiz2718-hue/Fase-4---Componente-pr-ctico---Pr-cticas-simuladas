@@ -119,6 +119,7 @@ def ejecutar_simulacion():
         (c2, s2, 2),   # 9. Válida
         (c1, s3, 1),   # 10. Válida
     ]
+    
      for cliente, servicio, cantidad in operaciones:
         try:
             reserva = Reserva(cliente, servicio, cantidad)
